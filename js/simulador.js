@@ -48,7 +48,7 @@ console.log(saludo());
 
 alert("Bienvenidos al Simulador de Áreas y Perímetros.");
 
-let menu = parseFloat(prompt("Primero elige una opción, luego ingresa los datos solicitados y por último dirigete a la Consola del Navegador(F12) para cotejar los Resultados con el cuadro de diálogo:\n 1 - Perímetro del Cuadrado \n 2 - Área del Cuadrado \n 3 - Perímetro del Rectángulo \n 4 - Área del Rectángulo \n 5 - Perímetro del Círculo \n 6 - Área del Círculo \n 7 - Salir"));
+let menu = parseFloat(prompt("Primero elige una opción, luego ingresa los datos solicitados y por último dirigete a la Consola del Navegador(F12) para cotejar Datos y Resultados con el cuadro de diálogo:\n 1 - Perímetro del Cuadrado \n 2 - Área del Cuadrado \n 3 - Perímetro del Rectángulo \n 4 - Área del Rectángulo \n 5 - Perímetro del Círculo \n 6 - Área del Círculo \n 7 - Salir"));
 
 while (menu !== 7) {
     switch (menu) {
